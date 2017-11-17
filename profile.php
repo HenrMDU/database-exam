@@ -36,7 +36,7 @@
     <p>Age: <?php echo $user['age'];?></p>
     <p>Power: <?php echo $user['superpower'];?></p>
     <p><?php echo $user['description'];?></p>
-    <p><?php echo $user['COUNT(likes)'];?></p><br>
+    <p>Likes: <?php echo $user['COUNT(likes)'];?></p><br>
 
     <a href="update_profile.php">Edit profile</a>
     <hr>
